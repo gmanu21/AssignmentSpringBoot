@@ -26,7 +26,7 @@ Body raw (json)
     "EC2",
     "S3"
 ]
-
+<br><br>
 
 2.)Get Job Result
 
@@ -48,6 +48,7 @@ Response
 
 status: String - The status of the job. Possible values are "IN_PROGRESS", "COMPLETED", etc.
 
+<br><br>
 3.)Get Discovery Result
 
 Endpoint
@@ -68,6 +69,7 @@ Response
 
 result: List<String> - A list of discovered instances or bucket names.
 
+<br><br>
 4.) Get S3 Bucket Objects
 
 Endpoint
@@ -88,6 +90,7 @@ Response
 
 jobId: Long - The ID of the job for retrieving S3 bucket objects.
 
+<br><br>
 5.) Get S3 Bucket Object Count
 
 Endpoint
@@ -108,6 +111,7 @@ Response
 
 count: Long - The number of objects in the bucket.
 
+<br><br>
 6.) Get S3 Bucket Object Like
 
 Endpoint
