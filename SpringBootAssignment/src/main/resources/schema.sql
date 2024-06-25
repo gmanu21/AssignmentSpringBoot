@@ -14,3 +14,7 @@ CREATE TABLE file_metadata (
     bucket_name VARCHAR(255) NOT NULL,
     file_name VARCHAR(255) NOT NULL
 );
+CREATE TABLE EC2Instance (
+	id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    instanceId VARCHAR(255) NOT NULL
+);
