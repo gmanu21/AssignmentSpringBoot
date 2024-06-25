@@ -103,7 +103,7 @@ public class AwsService {
 
 		return fileMetadataList.stream()
 	                .filter(metadata -> metadata.getFileName().contains(pattern))
-	                .map(FileMetadata::getFileName) // Extract file name
+	                .map(FileMetadata::getFileName)
 	                .collect(Collectors.toList());
 	}
 
