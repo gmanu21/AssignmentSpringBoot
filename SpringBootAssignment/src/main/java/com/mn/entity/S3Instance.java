@@ -12,6 +12,10 @@ public class S3Instance {
 	private Long id;
 	private String bucketName;
 
+	public S3Instance() {
+	}
+
+
 	public S3Instance(String bucketName) {
 		this.bucketName = bucketName;
 	}
@@ -32,6 +36,8 @@ public class S3Instance {
 		this.bucketName = bucketName;
 	}
 
-
-
+	@Override
+	public String toString() {
+		return "S3Instance [id=" + id + ", bucketName=" + bucketName + "]";
+	}
 }
